@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://tang0hui.github.io/al-folio/sitemap.xml
+Sitemap: https://tang0hui.github.io/linghui-alfolio.github.io/sitemap.xml
