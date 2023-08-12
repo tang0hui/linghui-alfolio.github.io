@@ -676,3 +676,50 @@ The theme is available as open source under the terms of the [MIT License](https
 
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license).
 Since then, it got a full re-write of the styles and many additional cool features.
+
+
+## My Instructions
+
+install ruby
+upgrade ruby to 2.7
+
+install 
+
+```
+brew update
+brew install ruby-build
+brew install rbenv
+rbenv install 3.2.2
+rbenv global 3.2.2
+ruby -v
+```
+
+open ~/.zshrc
+echo $PATH
+export PATH="$HOME/.rbenv/shims:$PATH"
+
+
+* install jekyll
+
+```gem install jekyll bundler```
+
+
+
+#### fork the github jekyll site repo
+
+* clone repo to local
+
+```
+bundle install
+```
+
+```
+bundle exec jekyll serve
+```
+
+* 安装 gcm ，在git push的时候用
+https://github.com/git-ecosystem/git-credential-manager/blob/main/README.md
+
+
+https://www.netlify.com/?attr=homepage-modal 
+free cdn
